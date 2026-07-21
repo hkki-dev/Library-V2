@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <style>
+        .card {width:50%; margin:5px auto;}
+        .input {width:100%;}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a class="brand" href="./index.html">📚 Library</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section class="card">
+            <h2>회원가입</h2>
+            <form id="signupForm" action="" method="">
+                <div class="form_group">
+                    <input class="input" id="signupName" type="text" placeholder="이름" >
+                    <input class="input" id="signupId" type="text" placeholder="아이디" >
+                    <input class="input" id="signupPw" type="password" placeholder="비밀번호" >
+                    <input class="input" id="signupEmail" type="text" placeholder="이메일">
+                    <button class="btn special" type="submit">가입하기(데모)</button>                    
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="./js/signup.js"></script>
+</body>
+</html>
